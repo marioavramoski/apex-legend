@@ -1,0 +1,79 @@
+
+body {
+    width: 980px;
+    height: auto;
+    margin: 0 auto;
+    font-family:'Courier New', Courier, monospace;
+}
+header {
+    width: 100%;
+    height: auto;
+    background-color: #1F2937;
+    color: #f9faf8;
+}
+* {
+    box-sizing: border-box;
+}
+.nav-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.apex {
+    display: flex;
+    justify-content: flex-start;
+    margin: 1% 1% 1% 6%;
+    padding: 0.5%;
+    width: 100%;
+    height: auto;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: auto;
+    margin: 1.5% 4.5%;
+    padding: 0.5%;
+    
+}
+.links a {
+    font-size: 18px;
+    height: 100%;
+    width: auto;
+    margin: 5px;
+    padding: 2px;
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+.apex-header {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.apex-header img {
+    width: 35%;
+    height: auto;
+    margin: 7%;
+}
+
+.apex-head {
+    display: block;
+    width: 80%;
+    height: auto;
+    padding: 5%;
+}
+.apex-head button {
+    width: 26%;
+    height: 9%;
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 14px;
+    background-color: #3882f6;
+    border-color: #3882f6;
+    border-radius: 8px;
+}
