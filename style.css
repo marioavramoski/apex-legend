@@ -127,3 +127,67 @@ header {
     font-weight: bold;
     font-size: 140%;
 }
+
+.signup {
+    width: 100%;
+    height: auto;
+    margin: 50px;
+    padding: 30px;
+}
+
+.signin {
+    width: 85%;
+    height: auto;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.signin{
+    background-color: #3882f6;
+    position: relative;
+    justify-content: space-around;
+}
+
+.sign {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.signin button {
+    background-color: #3882f6;
+    border-color: #e5e7eb;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 3px 20px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    position: relative;
+    background-color: #1F2937;
+    color: #e5e7eb;
+
+}
+
+footer p {
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
